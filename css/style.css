@@ -1264,10 +1264,12 @@ footer a {
         align-items: center;
         flex-direction: column;
     }
-    .footer-container .info ul li{
-        margin:  5px 0;
+
+    .footer-container .info ul li {
+        margin: 5px 0;
     }
-    .footer-container .hr{
+
+    .footer-container .hr {
         width: 100%;
         height: 2px;
         background-color: rgba(255, 255, 255, 0.1);
@@ -1278,26 +1280,31 @@ footer a {
 
 /*=======Media query max-width 730px=======*/
 @media screen and (max-width: 730px) {
-    /*=======Common styles for all sections=======*/
-  body{
-    margin: 5rem 0 0 0 ;
-  }
 
-  .section-title-01{
-    font-size: 3rem;
-  }
-  .section-title-02{
-    font-size: 2em;
-    transform: translateY(-65px);
-  }
+    /*=======Common styles for all sections=======*/
+    body {
+        margin: 5rem 0 0 0;
+    }
+
+    .section-title-01 {
+        font-size: 3rem;
+    }
+
+    .section-title-02 {
+        font-size: 2em;
+        transform: translateY(-65px);
+    }
+
     /*=======Home section=======*/
-    .home .home-container{
+    .home .home-container {
         display: grid;
     }
-    .home-container .home-img{
+
+    .home-container .home-img {
         position: absolute;
     }
-     .home-container .home-img img{
+
+    .home-container .home-img img {
         /* width: 65%;
         transform: translate(80px, -180px); */
         margin-bottom: 80px;
@@ -1305,14 +1312,27 @@ footer a {
         max-width: 281px;
         margin-left: -59px;
         transform: translate(80px, -180px);
-     }
+    }
 
-     .home .home-container .info{
-        font-size:  0.8rem;
-     }
-     .media-icons{
-        margin-bottom:80px ;
-     }
+    .home .home-container .info {
+        font-size: 0.8rem;
+    }
+
+    .media-icons {
+        margin-bottom: 80px;
+    }
 
     /*=======Get-in-touch section=======*/
+    .get-in-touch .contact-card {
+        display: grid;
+    }
+
+    .contact-card .title {
+        font-size: 0.6rem;
+        line-height: 40px;
+    }
+
+    .contact-card .contact-btn .btn {
+        font-size: 0.8rem;
+    }
 }
